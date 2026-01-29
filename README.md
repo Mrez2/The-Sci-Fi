@@ -1,0 +1,2 @@
+# The-Sci-Fi
+This project is a real-time spatial interface that bridges Computer Vision and 3D Graphics. It utilizes MediaPipe’s 21-point hand landmark tracking to manipulate a 64-node particle grid rendered in PyOpenGL. The system features an intentional gesture-locking mechanism: the right hand dynamically scales the environment based on pinch distance, while the left hand enables 3D rotation only when a specific "two-finger" pose is detected. It implements Lerp (Linear Interpolation) for smooth state transitions and additive blending for a high-fidelity neon aesthetic.
